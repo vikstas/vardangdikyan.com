@@ -90,6 +90,10 @@ nav.links a:hover { color: var(--fg); }
   .portrait { justify-self: start; order: -1; width: 104px; max-width: 104px; }
   .portrait img { border-radius: 50%; box-shadow: 0 0 0 3px var(--surface), 0 0 0 4px var(--line); }
 }
+@media (min-width: 821px) {
+  .portrait { justify-self: center; max-width: 280px; }
+  .portrait img { border-radius: 50%; box-shadow: 0 0 0 5px var(--surface), 0 0 0 6px var(--line), 0 30px 60px -30px rgba(0, 0, 0, 0.55); }
+}
 .hero h1 { font-size: clamp(2rem, 7.4vw, 4.4rem); font-weight: 700; max-width: 15ch; }
 .hero h1 em { font-style: normal; color: var(--accent); }
 .hero p.lede { font-size: 1.2rem; color: var(--muted); max-width: 56ch; margin: 0; }
